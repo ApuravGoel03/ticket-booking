@@ -1,0 +1,29 @@
+[
+  {
+    "user_id" : "23121",
+    "name" : "Apurav Goel",
+    "hashedPassword" : "abcd123456",
+    "tickets_booked": [
+      {
+        "source": "Bangalore",
+        "destination": "Delhi",
+        "date_of_travel": "2025-06-12T12:40:00Z",
+        "train": {
+          "train_id" : "bacs",
+          "train_no" : 123456,
+          "seats": [
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+          ],
+          "stations": {
+            "Bangalore": "13:50:00",
+            "Jaipur": "15:50:00",
+            "Delhi": "16:50:00"
+          }
+        }
+      }
+    ]
+  }
+]
